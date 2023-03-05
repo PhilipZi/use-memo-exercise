@@ -3,7 +3,9 @@ import MyParagrapgh from "./MyParagrapgh";
 
 function DemoOutput(props) {
   console.log("demooutput runnning!");
-  return <MyParagrapgh>{props.show ? "This is new!" : ""}</MyParagrapgh>;
+  return (
+    <MyParagrapgh>{props.show ? "This is new bla test!" : ""}</MyParagrapgh>
+  );
 }
 
 export default React.memo(DemoOutput);
