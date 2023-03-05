@@ -11,6 +11,8 @@ function App() {
     setShowParagraph((prevShowParagrap) => !prevShowParagrap);
   }
 
+  console.log("App is running");
+
   return (
     <div className="app">
       <h1>Hi there!</h1>
